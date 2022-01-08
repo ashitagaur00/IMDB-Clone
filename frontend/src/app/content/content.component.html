@@ -1,0 +1,42 @@
+<section class="space-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-9 mb-1 order-md-2">
+        <router-outlet></router-outlet>
+      </div>
+
+      <div class="col-12 col-md-3 mb-1 order-md-1">
+        <div class="card card-sm">
+          <div class="card-header">
+            <span class="h6">Categories</span>
+          </div>
+          <div class="list-group list-group-flush">
+            <a routerLinkActive="" [routerLink]="['']" class="list-group-item d-flex justify-content-between" >
+              <div>
+                <i class="icon-menu mr-1"></i>
+                <span>All Categories</span>
+              </div>
+              <div>
+                <i class="icon-chevron-right"></i>
+              </div>
+            </a>
+            <a routerLinkActive="active" *ngFor="let genre of genres.genres" routerLink="{{genre.id}}" class="list-group-item d-flex justify-content-between" >
+              <div>
+                <i class="icon-grid mr-1"></i>
+                <span>{{genre.name}}</span>
+              </div>
+              <div>
+                <i class="icon-chevron-right"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </div>
+  </div>
+</section>
+

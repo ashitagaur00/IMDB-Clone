@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "movie backend server",
+  "main": "entry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mizan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "convert-csv-to-json": "0.0.13",
+    "cors": "^2.8.4",
+    "csvtojson": "^1.1.9",
+    "express": "^4.16.3",
+    "node-rest-client": "^3.1.0",
+    "request": "^2.85.0",
+    "sync-rest-client": "^1.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
