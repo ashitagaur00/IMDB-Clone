@@ -5,7 +5,7 @@
 
 ### 01 - install [node]
 
-### 02 - Then install the Angular CLI globally.
+### 02 - Then install the Angular CLI globally
 npm install -g @angular/cli
 
 ### 03 - move to backend folder
